@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>What's in Your Birthday?</title>
+  <script src="jquery-3.3.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Thasadith" rel="stylesheet">
+  <style>
+    #DATE {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      font-size: 60px;
+      color:white;
+    }
+    #STONE_DIV {
+      position: relative;
+      font-family: Arial;
+      background-color: white;
+      left: 75px;
+      width: 300px;
+      float: left;
+    }
+    #STONES {
+      position: absolute;
+      vertical-align: center;
+      text-align: center;
+      top: 75px;
+      width: 100%;
+      color: white;
+    }
+    #FLOWER_DIV {
+      position: relative;
+      font-family: Arial;
+      background-color: white;
+      left: 75px;
+      width: 300px;
+      float: left;
+    }
+    #FLOWERS {
+      position: absolute;
+      vertical-align: center;
+      text-align: center;
+      top: 75px;
+      width: 100%;
+      color: white;
+    }
+    #ZODIAC_DIV {
+      position: relative;
+      font-family: Arial;
+      background-color: white;
+      left: 75px;
+      width: 300px;
+      float: left;
+    }
+    #ZODIACS {
+      position: absolute;
+      vertical-align: center;
+      text-align: center;
+      top: 75px;
+      width: 100%;
+      color: white;
+    }
+    #CNZODIAC_DIV {
+      position: relative;
+      font-family: Arial;
+      background-color: white;
+      left: 75px;
+      width: 300px;
+      float: left;
+    }
+    #CNZODIACS {
+      position: absolute;
+      vertical-align: center;
+      text-align: center;
+      top: 75px;
+      width: 100%;
+      color: white;
+    }
+  </style>
+</head>
+<body style="background-color:rgb(240, 158, 212);background-size:cover" onload = "main()">
+  <script src="selector.js"></script>
+  <div id="spacer_0" style="height: 50px"></div>
+  <h1 id="DATE"></h1>
+  <div id="spacer" style="height: 100px"></div>
+  <div id="STONE_DIV">
+    <img id="STONE_IMAGE" src="BirthAtts/BLANK CANVAS.jpg" alt="Birth Stone" width="300" height="300" style="filter: brightness(45%);vertical-align:middle;">
+    <div id="STONES">
+      <p id="STONE_LABEL" style="font-family: 'Thasadith', sans-serif;font-size: 20px;">Birth Stone</p>
+      <p id="STONE" style="font-family: 'Raleway', sans-serif;font-size: 30px"></p>
+    </div>
+  </div>
+  <div id="FLOWER_DIV">
+    <img id="FLOWER_IMAGE" src="BirthAtts/BLANK CANVAS.jpg" alt="Birth Flower" width="300" height="300" style="filter: brightness(45%);vertical-align:middle;">
+    <div id="FLOWERS">
+        <p id="FLOWER_LABEL" style="font-family: 'Thasadith', sans-serif;font-size: 20px;">Birth Flower</p>
+        <p id="FLOWER" style="font-family: 'Raleway', sans-serif;font-size: 30px"></p>
+    </div>
+  </div>
+  <div id="ZODIAC_DIV">
+    <img id="ZODIAC_IMAGE" src="BirthAtts/BLANK CANVAS.jpg" alt="Zodiac Sign" width="300" height="300" style="filter: brightness(45%);vertical-align:middle;">
+    <div id="ZODIACS">
+        <p id="ZODIAC_LABEL" style="font-family: 'Thasadith', sans-serif;font-size: 20px;">Zodiac Sign</p>
+        <p id="ZODIAC" style="font-family: 'Raleway', sans-serif;font-size: 30px"></p>
+    </div>
+  </div>
+  <div id="CNZODIAC_DIV">
+    <img id="CNZODIAC_IMAGE" src="BirthAtts/BLANK CANVAS.jpg" alt="Chinese Zodiac Sign" width="300" height="300" style="filter: brightness(45%);vertical-align:middle;">
+    <div id="CNZODIACS">
+        <p id="CNZODIAC_LABEL" style="font-family: 'Thasadith', sans-serif;font-size: 20px;">Chinese Lunar Zodiac</p>
+        <p id="CNZODIAC" style="font-family: 'Raleway', sans-serif;font-size: 30px"></p>
+    </div>
+  </div>
+</body>
+</html>
