@@ -433,11 +433,6 @@ function main() {
 
     // Outputs
     if(month != NaN && dayint != NaN && (years > 1962 && years < 2018)){
-      // document.write('Birthdate: ' + monthName + ' ' + dayint + ', ' + years + '<br>');
-      // document.write('Birth Stone: ' + stone + '<br>');
-      // document.write('Birth Flower: ' + flower + '<br>');
-      // document.write('Zodiac Sign: ' + zodiacx + '<br>');
-      // document.write('Chinese Zodiac Sign: Year of the ' + cnZod + '<br>');
       $("#DATE").text(dayint + " " + monthName + " " + years);
       $("#STONE").text(stone);
       $("#FLOWER").text(flower);
@@ -445,7 +440,11 @@ function main() {
       $("#CNZODIAC").text("Year of the " + cnZod);
     }
     else {
-      // document.write('Invalid Birthdate input. Please reload this page.');
+      $("#DATE").text("Invalid date input. Please reload the page.");
+      $("#STONE_DIV").hide();
+      $("#FLOWER_DIV").hide();
+      $("#ZODIAC_DIV").hide();
+      $("#CNZODIAC_DIV").hide();
     }
   }); 
 }
