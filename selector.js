@@ -432,7 +432,7 @@ function main() {
       }
 
     // Outputs
-    if(month != NaN && dayint != NaN && (years > 1962 && years < 2018)){
+    if(month != NaN && dayint != NaN && (years > 1962 && years < 2020)){
       $("#DATE").text(dayint + " " + monthName + " " + years);
       $("#STONE").text(stone);
       $("#FLOWER").text(flower);
@@ -445,6 +445,7 @@ function main() {
       $("#FLOWER_DIV").hide();
       $("#ZODIAC_DIV").hide();
       $("#CNZODIAC_DIV").hide();
+      console.log(dayint + " " + monthName + " " + years);
     }
   }); 
 }
