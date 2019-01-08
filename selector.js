@@ -428,7 +428,7 @@ function main() {
         });
       break;
       default:
-        window.alert("Please refresh this page. Invalid year entered/Year entered before 1962 or after 2018.");
+        window.alert("Please refresh this page. Invalid year entered/Year entered before 1962 or after 2019.");
       }
 
     // Outputs
