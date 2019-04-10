@@ -7,7 +7,13 @@
 </head>
 
 <body>
-  <h2>MISSION</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et magna nisl, quis consectetur ante. Aliquam nec augue magna. Quisque mi massa, lacinia quis feugiat id, posuere id erat. Morbi a eros turpis, eget scelerisque sapien. Nunc pellentesque, augue sed tristique gravida, nisl augue dictum nisi, at laoreet ante turpis non dolor. Maecenas tristique tristique nisl, tristique posuere mi porttitor eu. Pellentesque interdum, odio id scelerisque sodales, orci augue scelerisque tortor, id ornare leo quam non eros. Donec tincidunt vulputate libero convallis auctor. Morbi ullamcorper interdum metus, sed euismod dolor ullamcorper et.</p>
+  <h2 style="padding-left: 5px">MISSION</h2>
+  <p style="padding-left: 10px">Reflective of the great emphasis being given by the country's leadership aimed at providing appropriate attention to the alleviation of the plight of the poor, the development of the citizens, and of the national economy to become globally competitive, the University shall commit its academic resources and manpower to achieve its global through:</p>
+  <ol>
+    <li>Provision of undergraduate and graduate education which meet international standards of quality and excellence; </li>
+    <li>Generation and transmission of knowledge in the broad range of disciplines releveent and responsive to the dynamically changing domestic and international environment; </li>
+    <li>Provision of more equitable access to higher education opportunities to deserving ad qualified Filipinos; and </li> 
+    <li>Optimization, through ifficiency and effectivenes, of social, institutional, and indivual returns and benefits derived from the utilization of higher educatio resources. </li> 
+  </ol>
 </body>
 </html>
