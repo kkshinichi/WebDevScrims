@@ -23,7 +23,16 @@
 <body>
 
   <div class="header">
-    <h1><?php echo NAME; ?></h1>
+    <h1>WebDevScrims</h1>
+  </div>
+
+  <div class="menu">
+  <ul>
+    <li><a href="Home.php">Home</a></li>
+    <li><a href="lab2.php">Laboratory Exercises</a></li>
+    <li><a href="js1.php">JavaScript Activities</a>
+    <li><a href="OurTeam.php">Our Team</a></li>
+  </ul>
   </div>
 
   <div class="row">
@@ -43,14 +52,6 @@
         <li><a href="lab11.php">Lab 11</a></li>
         <li><a href="lab12.php">Lab 12</a></li>
         <li><a href="lab13.php">Lab 13</a></li>
-        <p>JavaScript Hands-on</p>
-        <li><a href="js1.php">JavaScript Hands-on Activity 1</a></li>
-        <li><a href="js2.php">JavaScript Hands-on Activity 2</a></li>
-        <li><a href="js3.php">JavaScript Hands-on Activity 3</a></li>
-        <li><a href="js4.php">JavaScript Hands-on Activity 4</a></li>
-        <li><a href="js5.php">JavaScript Hands-on Activity 5</a></li>
-        <li><a href="js6.php">JavaScript Hands-on Activity 6</a></li>
-        <li><a href="js7.php">JavaScript Hands-on Activity 7</a></li>
       </ul>
     </div>
 
@@ -116,7 +117,7 @@
   </div>
 
   <div class="footer">
-    <h5><?php echo '&copy; ', date('Y'), ' ', NAME, ' :: Rundate ', date('m/d/Y'); ?></h5>
+    <h5><?php echo '&copy; ', date('Y'), ' ', "WebDevScrims", ' :: Rundate ', date('m/d/Y'); ?></h5>
   </div>
 
 </body>

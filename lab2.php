@@ -6,8 +6,26 @@
   $school = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES";
   $course = "BSCpE";
   $yearlevel = "4th Year";
-  $dateofbirth = "01/04/1999";
-  $gender = "Male";
+  $dateofbirth = "12/18/1998";
+  $gender = "Female";
+
+  $school1 = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES";
+  $course1 = "BSCpE";
+  $yearlevel1 = "4th Year";
+  $dateofbirth1 = "05/12/1999";
+  $gender1 = "Male";
+
+  $school2 = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES";
+  $course2 = "BSCpE";
+  $yearlevel2 = "4th Year";
+  $dateofbirth2 = "10/27/1998";
+  $gender2 = "Male";
+
+  $school3 = "POLYTECHNIC UNIVERSITY OF THE PHILIPPINES";
+  $course3 = "BSCpE";
+  $yearlevel3 = "4th Year";
+  $dateofbirth3 = "01/04/1999";
+  $gender3 = "Male";
   // Constants
   define('NAME','THEO LEONARD P. TEJADA');
   define('STUDENT NUMBER', '2015-01331-MN-0');
@@ -29,7 +47,16 @@
 <body>
 
   <div class="header">
-    <h1><?php echo NAME; ?></h1>
+    <h1>WebDevScrims</h1>
+  </div>
+
+  <div class="menu">
+  <ul>
+    <li><a href="Home.php">Home</a></li>
+    <li><a href="lab2.php">Laboratory Exercises</a></li>
+    <li><a href="js1.php">JavaScript Activities</a>
+    <li><a href="OurTeam.php">Our Team</a></li>
+  </ul>
   </div>
 
   <div class="row">
@@ -49,33 +76,52 @@
         <li><a href="lab11.php">Lab 11</a></li>
         <li><a href="lab12.php">Lab 12</a></li>
         <li><a href="lab13.php">Lab 13</a></li>
-        <p>JavaScript Hands-on</p>
-        <li><a href="js1.php">JavaScript Hands-on Activity 1</a></li>
-        <li><a href="js2.php">JavaScript Hands-on Activity 2</a></li>
-        <li><a href="js3.php">JavaScript Hands-on Activity 3</a></li>
-        <li><a href="js4.php">JavaScript Hands-on Activity 4</a></li>
-        <li><a href="js5.php">JavaScript Hands-on Activity 5</a></li>
-        <li><a href="js6.php">JavaScript Hands-on Activity 6</a></li>
-        <li><a href="js7.php">JavaScript Hands-on Activity 7</a></li>
       </ul>
     </div>
 
     <div class="rightcolumn">
       <?php
         echo '<table width="95%" border=1 style="border-collapse: collapse;">';
-        echo '<tr><td colspan=2><strong>My Academic Information</strong></td></tr>';
+        echo '<tr><td colspan=2><strong>My Academic Information</strong> - Abordo, Gellyne G.</td></tr>';
         echo '<tr><td>School</td><td>', $school, '</td></tr>';
         echo '<tr><td>Course</td><td>', $course, '</td></tr>';
         echo '<tr><td>Year Level</td><td>', $yearlevel, '</td></tr>';
         echo '<tr><td>Date of Birth</td><td>', $dateofbirth, '</td></tr>';
         echo '<tr><td>Sex</td><td>', $gender, '</td></tr>';
-        echo '</table>'
+        echo '</table><br>';
+
+        echo '<table width="95%" border=1 style="border-collapse: collapse;">';
+        echo '<tr><td colspan=2><strong>My Academic Information</strong> - Lomibao, Allen Jed P.</td></tr>';
+        echo '<tr><td>School</td><td>', $school1, '</td></tr>';
+        echo '<tr><td>Course</td><td>', $course1, '</td></tr>';
+        echo '<tr><td>Year Level</td><td>', $yearlevel1, '</td></tr>';
+        echo '<tr><td>Date of Birth</td><td>', $dateofbirth1, '</td></tr>';
+        echo '<tr><td>Sex</td><td>', $gender1, '</td></tr>';
+
+        echo '</table><br>';
+        echo '<table width="95%" border=1 style="border-collapse: collapse;">';
+        echo '<tr><td colspan=2><strong>My Academic Information</strong> - Mahaguay, Edrian Charles M.</td></tr>';
+        echo '<tr><td>School</td><td>', $school2, '</td></tr>';
+        echo '<tr><td>Course</td><td>', $course2, '</td></tr>';
+        echo '<tr><td>Year Level</td><td>', $yearlevel2, '</td></tr>';
+        echo '<tr><td>Date of Birth</td><td>', $dateofbirth2, '</td></tr>';
+        echo '<tr><td>Sex</td><td>', $gender2, '</td></tr>';
+        echo '</table><br>';
+
+        echo '<table width="95%" border=1 style="border-collapse: collapse;">';
+        echo '<tr><td colspan=2><strong>My Academic Information</strong> - Tejada, Theo Leonard P.</td></tr>';
+        echo '<tr><td>School</td><td>', $school3, '</td></tr>';
+        echo '<tr><td>Course</td><td>', $course3, '</td></tr>';
+        echo '<tr><td>Year Level</td><td>', $yearlevel3, '</td></tr>';
+        echo '<tr><td>Date of Birth</td><td>', $dateofbirth3, '</td></tr>';
+        echo '<tr><td>Sex</td><td>', $gender3, '</td></tr>';
+        echo '</table><br>';
       ?>
     </div>
   </div>
 
   <div class="footer">
-    <h5><?php echo '&copy; ', date('Y'), ' ', NAME, ' :: Rundate ', date('m/d/Y'); ?></h5>
+    <h5><?php echo '&copy; ', date('Y'), ' ', "WebDevScrims", ' :: Rundate ', date('m/d/Y'); ?></h5>
   </div>
 
 </body>
