@@ -30,8 +30,17 @@
 
 <body>
 
-  <div class="header">
-    <h1><?php echo NAME; ?></h1>
+<div class="header">
+    <h1>WebDevScrims</h1>
+  </div>
+
+  <div class="menu">
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="lab2.php">Laboratory Exercises</a></li>
+    <li><a href="js1.php">JavaScript Activities</a>
+    <li><a href="OurTeam.php">Our Team</a></li>
+  </ul>
   </div>
 
   <div class="row">

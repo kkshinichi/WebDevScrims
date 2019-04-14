@@ -36,7 +36,7 @@
 
   <div class="menu">
   <ul>
-    <li><a href="Home.php">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="lab2.php">Laboratory Exercises</a></li>
     <li><a href="js1.php">JavaScript Activities</a>
     <li><a href="OurTeam.php">Our Team</a></li>
